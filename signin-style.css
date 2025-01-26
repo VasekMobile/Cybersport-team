@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: "Oswald";
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #222222;
+}
+
+.signin-box {
+    width: 750px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 10px 15px black;
+}
+
+.header-title {
+    display: inline-block;
+    background-color: #65d9fe;
+    font-size: 25px;
+    text-align: center;
+    width: 92.5%;
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+.header-exit {
+    display: inline-block;
+    width: 7%;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    line-height: 51px;
+    vertical-align: top;
+}
+
+.legend {
+    margin-left: 20px;
+}
+
+.main-box {
+    padding: 25px;
+}
+
+.name-label {
+    padding-left: 15px;
+}
+
+.name-box {
+    margin-left: 15px;
+    width: 75%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid white;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+.gender-label {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.masculine-input {
+    display: inline-block;
+    width: fit-content;
+}
+
+.feminine-input {
+    display: inline-block;
+    width: fit-content;
+    margin-left: 25px;
+}
+
+
+.gender-choice {
+    display: inline-block;
+    width: fit-content;
+    margin-left: 10px;
+}
+
+.gender-letter {
+    display: inline-block;
+    width: fit-content;
+    margin-left: 5px;
+}
+
+.age-checkbox {
+    margin-top: 30px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.age-label {
+    margin-top: 25px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.discipline-label {
+    display: inline-block;
+    width: fit-content;
+    margin-top: 25px;
+}
+
+.discipline-dropbox {
+    color: black;
+    margin-left: 20px;
+    outline: none;
+}
+
+.dropbox-choice {
+    color: black;
+}
+
+.extra-box {
+    margin-top: 20px;
+    resize: none;
+    width: 100%;
+    height: 150px;
+    color: color;
+    background: none;
+    outline: solid 1px white;
+}
+
+.send-button {
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 25px;
+    background: linear-gradient(#6ef6d5, #67e0f3);
+    text-decoration: none;
+}
